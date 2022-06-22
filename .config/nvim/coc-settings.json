@@ -1,0 +1,5 @@
+{
+    "python.venvFolders": [".virtualenv"],
+    "suggest.autoTrigger": "none",
+    "suggest.maxCompleteItemCount": 10
+}
