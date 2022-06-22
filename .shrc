@@ -1,0 +1,38 @@
+# Local bin
+if [ -r $HOME/.local/bin ]; then
+    export PATH="$HOME/.local/bin:$PATH"
+fi
+
+# Latex configuration
+export MANPATH="$MANPATH:$HOME/.local/share/texlive/texmf-dist/doc/man"
+export INFOPATH="$INFOPATH:$HOME/.local/share/texlive/texmf-dist/doc/info"
+export PATH="$HOME/.local/share/texlive/bin/aarch64-linux:$PATH"
+
+# Configuration folder
+export CONFIG_DIR=$HOME/.config
+export XDG_USER_CONFIG_DIR="$CONFIG_DIR"
+
+# Python environment directory
+#eval "$(pyenv init --path)"
+#eval "$(pyenv init -)"
+export PYVENV_HOME="$HOME/.virtualenv"
+export CONDAENV_HOME="$HOME/.conda/envs"
+
+# Aliases
+if [ -f $HOME/.sh_aliases ]; then
+    . $HOME/.sh_aliases
+fi
+
+# Conda
+__conda_setup="$('/Users/viviencabannes/.conda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/viviencabannes/.conda/etc/profile.d/conda.sh" ]; then
+        . "/Users/viviencabannes/.conda/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/viviencabannes/.conda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+

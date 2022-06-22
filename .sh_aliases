@@ -1,0 +1,21 @@
+# unix aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
+# --- config repository ---
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Python environment
+if [ -f $PYVENV_HOME/art/bin/activate ]; then
+  alias art="source $PYVENV_HOME/art/bin/activate"
+fi
+if [ -f $PYVENV_HOME/dev/bin/activate ]; then
+  alias dev="source $PYVENV_HOME/dev/bin/activate"
+fi
+if [ -f $PYVENV_HOME/rhs/bin/activate ]; then
+  alias rhs="source $PYVENV_HOME/rhs/bin/activate"
+fi
+if [ -r $CONDAENV_HOME/dev ]; then
+  alias dev="conda activate dev"
+fi
