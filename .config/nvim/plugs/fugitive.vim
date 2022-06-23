@@ -3,7 +3,7 @@ let g:fugitive_no_maps = 1
 nmap <localleader>gs :Git<CR>
 nmap <localleader>gl :Git log<CR>
 
-set statusline^=\ %{fugitive#head()}\ 
+"set statusline^=\ %{fugitive#head()}\ 
 
 augroup fugitive_maps
   autocmd!

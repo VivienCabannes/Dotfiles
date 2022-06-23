@@ -16,7 +16,7 @@ Plug 'davidhalter/jedi-vim'
 "  Plug 'neovim/nvim-lspconfig'
 ""	Plug 'hrsh7th/nvim-cmp'
 "else
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "endif
 
 call plug#end()
@@ -35,5 +35,5 @@ source $HOME/.config/nvim/plugs/flake8.vim
 "  lua require('user.lspconfig')
 ""  lua require('cmp')
 "else
-	source $HOME/.config/nvim/plugs/coc.vim
+"	source $HOME/.config/nvim/plugs/coc.vim
 "endif

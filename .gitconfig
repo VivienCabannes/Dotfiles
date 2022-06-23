@@ -1,8 +1,8 @@
 [user]
-	name = vivien.cabannes@gmail.com
-	email = Vivien Cabannes
+	name = Vivien Cabannes
+	email = vivien.cabannes@gmail.com
 [core]
-	editor = nvim
+	editor = vim
 	excludesfile = /Users/viviencabannes/.gitignore_global
 [diff]
 	tool = vimdiff

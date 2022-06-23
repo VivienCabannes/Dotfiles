@@ -22,3 +22,11 @@ This can be checked with `:checkhealth`. In particular, Coc.nvim is built on nod
 ## Useful features
 Install `ripgrep` for project-scope search.
 
+# Vim
+Vim is often installed on system, and working directly with it might be easier for backward compatibility issues.
+
+Install the vim-plug plugin manager
+```shell
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
