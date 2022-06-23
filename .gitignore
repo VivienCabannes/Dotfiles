@@ -1,0 +1,36 @@
+# Git bare repository
+.cfg
+
+# History
+.bash_history
+.bash_sessions
+.cache
+.cfg
+
+# Key
+.iex_api_token
+.portfolio_optimizer_config.py
+.ssh
+
+# Auto
+.local
+.vim
+.viminfo
+.vscode
+
+# Mac folders
+.CFUserTextEncoding
+.DS_Store
+.Trash
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+
+# Code folder
+code
