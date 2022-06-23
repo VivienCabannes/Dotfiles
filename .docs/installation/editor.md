@@ -36,3 +36,4 @@ Open vim with the `vim` command, and run the following command to install plugin
 :PlugInstall
 ```
 Once plugins are install, relaunch `vim`.
+Make sure to copy the directory `~/.config/vim/ftplugin/` into `~/.vim/ftplugin/`.

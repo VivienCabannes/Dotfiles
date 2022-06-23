@@ -8,8 +8,8 @@ Plug 'tpope/vim-fugitive'
 
 " Language server
 Plug 'lervag/vimtex'
-Plug 'nvie/vim-flake8'
-Plug 'davidhalter/jedi-vim'
+"Plug 'nvie/vim-flake8'
+"Plug 'davidhalter/jedi-vim'
 
 " Language client
 "if has('nvim')
@@ -25,8 +25,8 @@ source $HOME/.config/vim/plugs/gruvbox.vim
 source $HOME/.config/vim/plugs/fugitive.vim
 source $HOME/.config/vim/plugs/vimtex.vim
 
-source $HOME/.config/vim/plugs/jedi.vim
-source $HOME/.config/vim/plugs/flake8.vim
+"source $HOME/.config/vim/plugs/jedi.vim
+"source $HOME/.config/vim/plugs/flake8.vim
 
 "if has("nvim")
 "  lua require('lspconfig').pylsp.setup{}

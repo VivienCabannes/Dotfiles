@@ -19,7 +19,7 @@ filetype indent plugin on
 " --------------- Plugins --------------- 
 
 source $HOME/.config/vim/plug.vim
-
+filetype plugin on
 
 " --------------- Editor --------------- 
 
