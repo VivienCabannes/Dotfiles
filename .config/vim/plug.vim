@@ -1,5 +1,5 @@
 " Plug-in server - working after the installation of junegunn/vim-plug
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.local/share/vim/plugged')
 " Colortheme
 Plug 'morhetz/gruvbox'
 
@@ -21,12 +21,12 @@ Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
-source $HOME/.config/nvim/plugs/gruvbox.vim
-source $HOME/.config/nvim/plugs/fugitive.vim
-source $HOME/.config/nvim/plugs/vimtex.vim
+source $HOME/.config/vim/plugs/gruvbox.vim
+source $HOME/.config/vim/plugs/fugitive.vim
+source $HOME/.config/vim/plugs/vimtex.vim
 
-source $HOME/.config/nvim/plugs/jedi.vim
-source $HOME/.config/nvim/plugs/flake8.vim
+source $HOME/.config/vim/plugs/jedi.vim
+source $HOME/.config/vim/plugs/flake8.vim
 
 "if has("nvim")
 "  lua require('lspconfig').pylsp.setup{}
@@ -35,5 +35,5 @@ source $HOME/.config/nvim/plugs/flake8.vim
 "  lua require('user.lspconfig')
 ""  lua require('cmp')
 "else
-"	source $HOME/.config/nvim/plugs/coc.vim
+"	source $HOME/.config/vim/plugs/coc.vim
 "endif

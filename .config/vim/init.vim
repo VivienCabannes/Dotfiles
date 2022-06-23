@@ -18,7 +18,7 @@ filetype indent plugin on
 
 " --------------- Plugins --------------- 
 
-source $HOME/.config/nvim/plug.vim
+source $HOME/.config/vim/plug.vim
 
 
 " --------------- Editor --------------- 
@@ -68,15 +68,15 @@ nnoremap <localleader>wk :cd <CR>:pwd<CR>
 
 " --------------- Advanced configurations --------------- 
 
-source $HOME/.config/nvim/native/panes.vim
-source $HOME/.config/nvim/native/quickfix.vim
+source $HOME/.config/vim/native/panes.vim
+source $HOME/.config/vim/native/quickfix.vim
 
 " If not provided by a plugin
 "if has("nvim")
-"	source $HOME/.config/nvim/native/completion.vim
+"	source $HOME/.config/vim/native/completion.vim
 "endif
 "
 "if has("nvim")
-"	source $HOME/.config/nvim/neovim/diagnostic.vim
-"  source $HOME/.config/nvim/neovim/lsp.vim
+"	source $HOME/.config/vim/neovim/diagnostic.vim
+"  source $HOME/.config/vim/neovim/lsp.vim
 "endif

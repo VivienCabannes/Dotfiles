@@ -30,3 +30,9 @@ Install the vim-plug plugin manager
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+Open vim with the `vim` command, and run the following command to install plugins
+```vim
+:PlugInstall
+```
+Once plugins are install, relaunch `vim`.
