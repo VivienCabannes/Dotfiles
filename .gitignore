@@ -4,8 +4,13 @@
 # History
 .bash_history
 .bash_sessions
+.lesshst
+.zsh_history
+.zsh_sessions
 .cache
 .cfg
+.python_history
+__pycache__/
 
 # Key
 .iex_api_token
@@ -14,9 +19,14 @@
 
 # Auto
 .local
+.conda
+.matplotlib/
 .vim
 .viminfo
 .vscode
+.zshrc
+.rhs/
+.time-monitoring/
 
 # Mac folders
 .CFUserTextEncoding

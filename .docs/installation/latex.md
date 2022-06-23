@@ -22,4 +22,9 @@ $ tlmgr update --all
 TODO: See thesis manuscript to get a list of useful packages.
 - `Latexmk` is useful for automatic built.
 - `cm-super`, `rsfs` fonts used by default by matplotlib when specifying the usage of tex.
-
+- `newtx` for modern fonts.
+- `mathalpha` for mathematics.
+- `pgfplots` for plots.
+- `enumitem` for listings.
+- `algorithm2e` to write algorithms.
+- `appendix` to have appendix at the end of chapters.
